@@ -1,0 +1,42 @@
+
+.slider{
+    width: 1320px;
+    position: relative;
+}
+
+.slider .img{
+    width: 100%;
+    height: 600px;
+}
+
+
+.slider .img img{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.slider i{
+    font-size: 60px;
+    position: absolute;
+    top: 270px;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+}
+
+.slider i:nth-child(2){
+    right: 30px;
+}
+
+.slider i:nth-child(1){
+    left: 30px;
+}
+
+
+.active{
+    opacity: 1 !important;
+}
